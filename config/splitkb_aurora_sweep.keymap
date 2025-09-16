@@ -70,10 +70,10 @@
         num_layer {
             display-name = "Num Layer";
             bindings = <
-&kp N1   &kp N2     &kp N3           &kp N4           &kp N5        &kp MINUS   &kp N7        &kp N8             &kp N9           &kp SLASH
-&kp TAB  &kp LC(S)  &kp DQT          &kp PIPE2        &kp HASH      &kp PLUS    &mt LCTRL N4  &mt LEFT_SHIFT N5  &mt LEFT_ALT N6  &mt LWIN ASTERISK
-&kp ESC  &kp TILDE  &kp NON_US_BSLH  &kp NON_US_HASH  &kp TILDE2    &kp PERIOD  &kp N1        &kp N2             &kp N3           &kp EQUAL
-&mo 1    &trans                                                                                                  &kp COMMA        &kp N0
+&kp N1              &kp EXCLAMATION             &kp QUESTION             &kp LBKT                    &kp RBKT        &kp MINUS   &kp N7        &kp N8             &kp N9           &kp SLASH
+&mt LEFT_GUI CARET  &mt LC(LEFT_ALT) AMPERSAND  &mt LEFT_SHIFT ASTERISK  &mt LCTRL LEFT_PARENTHESIS  &kp LS(RPAR)    &kp PLUS    &mt LCTRL N4  &mt LEFT_SHIFT N5  &mt LEFT_ALT N6  &mt LWIN ASTERISK
+&kp HASH            &kp TILDE                   &kp NON_US_BSLH          &kp LS(LEFT_BRACE)          &kp LS(RBRC)    &kp PERIOD  &kp N1        &kp N2             &kp N3           &kp EQUAL
+&mo 1               &trans                                                                                                                                        &kp COMMA        &kp N0
             >;
         };
 
