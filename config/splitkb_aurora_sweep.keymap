@@ -80,9 +80,9 @@
         nav_layer {
             display-name = "Nav Layer";
             bindings = <
-&kp EXCL             &kp AT               &kp HASH               &kp DLLR                       &kp F13            &kp DEL   &kp BACKSPACE  &kp SPACE     &kp ENTER  &trans
-&mt LEFT_GUI K_PREV  &mt LEFT_ALT K_NEXT  &mt LEFT_SHIFT K_STOP  &mt LEFT_CONTROL K_PLAY_PAUSE  &kp PRINTSCREEN    &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
-&kp LSHFT            &kp KP_PLUS          &kp LBKT               &kp RBKT                       &kp BSLH           &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
+&trans               &kp C_VOL_DN         &kp C_VOLUME_UP        &kp C_MUTE                     &kp F13            &kp DEL   &kp BACKSPACE  &kp SPACE     &kp ENTER  &trans
+&mt LEFT_GUI C_PREV  &mt LEFT_ALT C_NEXT  &mt LEFT_SHIFT C_STOP  &mt LEFT_CONTROL C_PLAY_PAUSE  &kp PRINTSCREEN    &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&trans               &trans               &trans                 &trans                         &trans             &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
 &trans               &trans                                                                                                                               &trans     &mo 2
             >;
         };
